@@ -1,0 +1,30 @@
+## Visual Studio Code gitignore
+## Get latest from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+## --- AL gitignore ---
+## Ignores generated binary files and 
+## temporary files from Visual Studio and Visual Studio code
+## Get latest from https://github.com/microsoft/AL/blob/master/.gitignore
+
+# Binary files
+.alpackages/
+*.app
+
+# Temp files
+.vs/
+.vscode/
+
+# Others
+~$*
+*~
+
